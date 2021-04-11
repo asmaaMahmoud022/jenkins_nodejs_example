@@ -21,7 +21,7 @@ connection.connect(function(err) {
   console.log('Connected to database.');
 
 	connection.end();
-        callback(res)
+
 });})
 
 const redis = require('redis');
